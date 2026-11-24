@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy'),
+       url('/source/fonts/Gilroy-Thin.woff2') format('woff2'),
+       url('/source/fonts/Gilroy-Thin.woff') format('woff'),
+       url('/source/fonts/Gilroy-Thin.ttf') format('ttf'),
+       url('/source/fonts/Gilroy-Thin.eot') format('eot');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +16,16 @@
 body {
     background-color: #F9F1F0;
 }
+
+a {
+    text-decoration: none;
+    font-family: 'Gilroy';
+}
+
+h1, h2, h3, p {
+    font-family: 'Gilroy';
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -125,5 +144,60 @@ body {
 
 .aside {
     /* width: 447px; */
+    display: flex;
+    flex-direction: column;
     flex: 1;
+    gap: 24px;
+    /* padding: 34px 24px;  */
+    
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    flex: 9;
+    padding: 34px 24px 0px;
+    background-color: #FADCD9;
+    border-radius: 20px;
+}
+
+.aside-up {
+    margin-bottom: 30px;
+}
+
+.aside-up__line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+
+.aside-arrow {
+    width: 26px;
+    height: 26px;
+}
+
+.pink-chair {
+    width: 399px;
+    height: 269px;
+    border-radius: 16px;
+}
+
+.aside-up__line-block {
+    border-top: 2px solid #F8AFA6;
+    width: 100%;
+    margin-bottom: 41px;
+}
+
+.aside-up__line-block h3 {
+    margin-top: 41px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 45px 57px;
+    background-color: #FADCD9;
+    border-radius: 20px;
+    align-items: center;
 }
