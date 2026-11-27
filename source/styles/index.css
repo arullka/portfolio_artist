@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Gilroy';
   src: local('Gilroy'),
-       url('/source/fonts/Gilroy-Thin.woff2') format('woff2'),
-       url('/source/fonts/Gilroy-Thin.woff') format('woff'),
-       url('/source/fonts/Gilroy-Thin.ttf') format('ttf'),
-       url('/source/fonts/Gilroy-Thin.eot') format('eot');
+       url('../fonts/Gilroy-Thin.woff2') format('woff2'),
+       url('../fonts/Gilroy-Thin.woff') format('woff'),
+       url('../fonts/Gilroy-Thin.ttf') format('ttf'),
+       url('../fonts/Gilroy-Thin.eot') format('eot');
 }
 
 * {
