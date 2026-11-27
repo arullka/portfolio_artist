@@ -1,0 +1,51 @@
+/* @media (max-width: 1000px) {
+    body {
+        background-color: black;
+    }
+} */
+
+@media (max-width: 1150px) {
+    .main {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 620px) {
+    .artist-up__photo {
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .pink-chair {
+        width: 300px;
+        height: 207px;
+    }
+    .artist-down__circle-icon {
+        margin-bottom: 40px;
+    }
+    .artist-down__info p {
+        font-size: 14px;
+    }
+    .header {
+        flex-direction: column;
+        height: fit-content;
+    }
+    .nav {
+        margin-top: 20px;
+        /* flex-direction: column; */
+    }
+}
+
+@media (max-width: 400px) {
+    .artist-down {
+        flex-direction: column;
+        height: fit-content;
+    }
+    .artist-down__info {
+        width: 100%;
+    }
+    .pink-chair {
+        display: none;
+    }
+}
